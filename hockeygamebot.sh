@@ -51,5 +51,5 @@ shift 1
 
 # "$@" passes all arguments from the bash script into the python script
 echo "[INFO] Executing the following game bot script."
-echo "[EXEC] $PYTHONEXEC -m hockeygamebot $*"
-nohup $PYTHONEXEC -m hockeygamebot "$@" 2>&1 | tee &
+echo "[EXEC] $PYTHONEXEC -m hockeygamebot --team CGY $*"
+nohup $PYTHONEXEC -m hockeygamebot --team CGY $@" 2>&1 | tee &
