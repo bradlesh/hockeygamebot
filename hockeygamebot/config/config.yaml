@@ -8,10 +8,10 @@ script:
     final_sleep_time: 10
 
 default:
-    team_name: New Jersey Devils
+    team_name: Calgary Flames
 
 socials:
-    twitter: True
+    twitter: False
     discord: True
     slack: False
 
@@ -31,6 +31,6 @@ twitter:
 
 discord:
     prod:
-        webhook_url: https://discordapp.com/api/webhooks/XXX
+        webhook_url: https://discord.com/api/webhooks/1427843112364937226/EYw7XzKji4zj3B916oHJHdJNe-PusUMUqItiOF6cOJBLJ1RodTVP1Hl89Oewikc-H--3
     debug:
-        webhook_url: https://discordapp.com/api/webhooks/XXX
+        webhook_url: https://discord.com/api/webhooks/1427843112364937226/EYw7XzKji4zj3B916oHJHdJNe-PusUMUqItiOF6cOJBLJ1RodTVP1Hl89Oewikc-H--3
