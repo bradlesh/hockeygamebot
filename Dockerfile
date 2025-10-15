@@ -6,4 +6,4 @@ RUN pip install --no-cache-dir -r /app/hockeygamebot/requirements.txt
 COPY . /app
 WORKDIR /app
 
-CMD [ "python" , "/app/nhl-twitter-bot/hockey_twitter_bot.py", "--docker", "--team Calgary Flames", "--debug" ]
+CMD [ "python" , "-m", "hockeygamebot", "--team", "Calgary Flames", "--debug", "--docker" ]
