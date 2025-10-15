@@ -1,7 +1,7 @@
 endpoints:
-    nhl_base: https://api-web.nhle.com
-    nhl_endpoint: https://api-web.nhle.com/v1
-    nhl_rpt_base: https://api.nhle.com/stats/rest/en/teams
+    nhl_base: https://api-web.nhle.com/v1/
+    nhl_endpoint: https://api-web.nhle.com/v1/
+    # nhl_rpt_base: https://api.nhle.com/stats/rest/en/teams
     nhl_score_rpt_base: http://www.nhl.com/scores/htmlreports
     twitter_url: https://twitter.com/NJDevilsGameBot/status/
     twitter_handle: NJDevilsGameBot
